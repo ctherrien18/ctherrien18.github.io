@@ -1,0 +1,20 @@
+.about-title {
+    color: #0d233b;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.icon {
+    margin: 0 auto 30px;
+    color: white;
+    &:hover {
+        transition: all .3s ease-out;
+    }
+} 
+
+.services {
+    &.item {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}

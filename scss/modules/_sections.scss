@@ -1,0 +1,47 @@
+body {
+    font-family: Montserrat, sans-serif;
+    line-height: 1.8;
+}
+
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.margin-section-title {
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: #f5f6f7;
+}
+
+.padding-top-bottom {
+    padding: 3em 0;
+}
+
+#intro {
+    background: url("../img/palmTrees.jpg"); 
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#about {
+    background-color: #999999;
+}
+
+#skills {
+    background-color: #88c1dd;
+}
+
+#portfolio {
+    background-color: #4db3b3;
+}
+
+#work {
+    background-color: cadetblue;
+}

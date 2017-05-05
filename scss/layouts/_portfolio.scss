@@ -1,0 +1,68 @@
+@mixin thumbnail-style {
+    background-size: cover;
+    height: 280px;
+    width: 400px;
+    background-position: center;
+    display: inline-block;
+    float: none;
+    margin: 1em;
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+
+@mixin thumbnail-details {
+    position: relative;
+    top: 40%;
+    display: block;
+}
+
+.website-thumb {
+    margin-bottom: 2em;
+}
+
+.thumb-desc {
+    color: white; 
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.cmp-link {
+    background: url("../img/palmTrees.jpg"); 
+    @include thumbnail-style;
+}
+
+.hiram-link {
+    background: url("../img/palmTrees.jpg"); 
+    @include thumbnail-style;
+}
+
+.schmidt-link {
+    background: url("../img/palmTrees.jpg"); 
+    @include thumbnail-style;
+}
+
+.shaker-link {
+    background: url("../img/palmTrees.jpg"); 
+    @include thumbnail-style;
+}
+
+.cmp-details {
+    @include thumbnail-details;
+}
+
+.hiram-details {
+    @include thumbnail-details;
+}
+
+.schmidt-details {
+    @include thumbnail-details;
+}
+
+.shaker-details {
+    @include thumbnail-details;
+}
+

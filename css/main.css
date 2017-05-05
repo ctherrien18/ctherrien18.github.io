@@ -1,0 +1,513 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* MODULES - Individual site components */
+/* line 1, ../scss/modules/_typography.scss */
+i {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 1em;
+}
+
+/* line 1, ../scss/modules/_sections.scss */
+body {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.8;
+}
+
+/* line 6, ../scss/modules/_sections.scss */
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 11, ../scss/modules/_sections.scss */
+.margin-section-title {
+  margin-bottom: 30px;
+  font-size: 26px;
+  color: #f5f6f7;
+}
+
+/* line 17, ../scss/modules/_sections.scss */
+.padding-top-bottom {
+  padding: 3em 0;
+}
+
+/* line 21, ../scss/modules/_sections.scss */
+#intro {
+  background: url("../img/palmTrees.jpg");
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 33, ../scss/modules/_sections.scss */
+#about {
+  background-color: #999999;
+}
+
+/* line 37, ../scss/modules/_sections.scss */
+#skills {
+  background-color: #88c1dd;
+}
+
+/* line 41, ../scss/modules/_sections.scss */
+#portfolio {
+  background-color: #4db3b3;
+}
+
+/* line 45, ../scss/modules/_sections.scss */
+#work {
+  background-color: cadetblue;
+}
+
+/* LAYOUTS - Page layout styles */
+/* line 1, ../scss/layouts/_nav.scss */
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+/* line 11, ../scss/layouts/_nav.scss */
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+/* line 3, ../scss/layouts/_header.scss */
+.typed-title {
+  overflow: hidden;
+  border-right: .1em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 2.5s steps(25, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  /* line 15, ../scss/layouts/_header.scss */
+  from {
+    width: 0;
+  }
+
+  /* line 16, ../scss/layouts/_header.scss */
+  to {
+    width: 350px;
+  }
+}
+
+@keyframes blink-caret {
+  /* line 20, ../scss/layouts/_header.scss */
+  from, to {
+    border-color: transparent;
+  }
+
+  /* line 21, ../scss/layouts/_header.scss */
+  50% {
+    border-color: white;
+  }
+}
+
+/* line 24, ../scss/layouts/_header.scss */
+.typewriter {
+  color: white;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-family: monospace;
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 34, ../scss/layouts/_header.scss */
+.logo {
+  display: block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 5px;
+  left: 2em;
+}
+
+/* line 1, ../scss/layouts/_footer.scss */
+.footer {
+  background-color: #262626;
+}
+
+/* line 5, ../scss/layouts/_footer.scss */
+.copyright {
+  color: white;
+}
+
+/* line 1, ../scss/layouts/_about.scss */
+.about-title {
+  color: #0d233b;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* line 7, ../scss/layouts/_about.scss */
+.icon {
+  margin: 0 auto 30px;
+  color: white;
+}
+/* line 10, ../scss/layouts/_about.scss */
+.icon:hover {
+  transition: all .3s ease-out;
+}
+
+/* line 16, ../scss/layouts/_about.scss */
+.services.item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* line 13, ../scss/layouts/_skills.scss */
+body {
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #282828;
+}
+
+/* line 21, ../scss/layouts/_skills.scss */
+.comp-skills {
+  width: 80%;
+  max-width: 960px;
+  height: 720px;
+  margin: auto;
+  position: relative;
+}
+
+/* line 30, ../scss/layouts/_skills.scss */
+.lines {
+  height: 100%;
+  position: relative;
+  list-style-type: none;
+  padding: 0;
+}
+/* line 36, ../scss/layouts/_skills.scss */
+.lines .line {
+  height: inherit;
+  width: 2px;
+  position: absolute;
+  background: rgba(220, 255, 255, 0.6);
+}
+/* line 44, ../scss/layouts/_skills.scss */
+.lines .line.skill-level {
+  left: 0;
+}
+/* line 47, ../scss/layouts/_skills.scss */
+.lines .line.basic-level {
+  left: 25%;
+}
+/* line 50, ../scss/layouts/_skills.scss */
+.lines .line.average-level {
+  left: 50%;
+}
+/* line 53, ../scss/layouts/_skills.scss */
+.lines .line.advanced-level {
+  left: 75%;
+}
+/* line 56, ../scss/layouts/_skills.scss */
+.lines .line.expert-level {
+  left: calc(100% - 1px);
+}
+/* line 60, ../scss/layouts/_skills.scss */
+.lines .line .skill-label {
+  display: block;
+  width: 100px;
+  text-align: center;
+  position: absolute;
+  bottom: -20px;
+  right: -50px;
+}
+/* line 69, ../scss/layouts/_skills.scss */
+.lines .line .skill-label.skills-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 77, ../scss/layouts/_skills.scss */
+.graphs {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/* line 86, ../scss/layouts/_skills.scss */
+.graph {
+  margin: 30px 0 0;
+}
+/* line 89, ../scss/layouts/_skills.scss */
+.graph:first-child {
+  margin: 0;
+}
+
+/* line 94, ../scss/layouts/_skills.scss */
+.graph-title {
+  display: block;
+  margin: 0 0 10px;
+  font-weight: bold;
+  text-align: left;
+  opacity: 0;
+  animation: 1s anim-lightspeed-in ease forwards;
+}
+/* line 105, ../scss/layouts/_skills.scss */
+.graph-design .graph-title {
+  animation-delay: 3s;
+}
+
+/* line 110, ../scss/layouts/_skills.scss */
+.graph-x {
+  overflow: hidden;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 116, ../scss/layouts/_skills.scss */
+.graph-bar {
+  height: 30px;
+  margin-bottom: 10px;
+  background: linear-gradient(to left, #4cb8c4, #3cd3ad);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  opacity: 0;
+  animation: 1s anim-lightspeed-in ease forwards;
+}
+/* line 6, ../scss/layouts/_skills.scss */
+.graph-block .graph-bar:nth-of-type(9) {
+  animation-delay: 2.3s;
+}
+/* line 6, ../scss/layouts/_skills.scss */
+.graph-block .graph-bar:nth-of-type(8) {
+  animation-delay: 2.1s;
+}
+/* line 6, ../scss/layouts/_skills.scss */
+.graph-block .graph-bar:nth-of-type(7) {
+  animation-delay: 1.9s;
+}
+/* line 6, ../scss/layouts/_skills.scss */
+.graph-block .graph-bar:nth-of-type(6) {
+  animation-delay: 1.7s;
+}
+/* line 6, ../scss/layouts/_skills.scss */
+.graph-block .graph-bar:nth-of-type(5) {
+  animation-delay: 1.5s;
+}
+/* line 6, ../scss/layouts/_skills.scss */
+.graph-block .graph-bar:nth-of-type(4) {
+  animation-delay: 1.3s;
+}
+/* line 6, ../scss/layouts/_skills.scss */
+.graph-block .graph-bar:nth-of-type(3) {
+  animation-delay: 1.1s;
+}
+/* line 6, ../scss/layouts/_skills.scss */
+.graph-block .graph-bar:nth-of-type(2) {
+  animation-delay: 0.9s;
+}
+/* line 6, ../scss/layouts/_skills.scss */
+.graph-block .graph-bar:nth-of-type(1) {
+  animation-delay: 0.7s;
+}
+/* line 6, ../scss/layouts/_skills.scss */
+.graph-design .graph-bar:nth-of-type(2) {
+  animation-delay: 3.9s;
+}
+/* line 6, ../scss/layouts/_skills.scss */
+.graph-design .graph-bar:nth-of-type(1) {
+  animation-delay: 3.7s;
+}
+/* line 136, ../scss/layouts/_skills.scss */
+.graph-bar[data-skill='35'] {
+  width: 35%;
+}
+/* line 139, ../scss/layouts/_skills.scss */
+.graph-bar[data-skill='40'] {
+  width: 40%;
+}
+/* line 142, ../scss/layouts/_skills.scss */
+.graph-bar[data-skill='45'] {
+  width: 45%;
+}
+/* line 145, ../scss/layouts/_skills.scss */
+.graph-bar[data-skill='50'] {
+  width: 50%;
+}
+/* line 148, ../scss/layouts/_skills.scss */
+.graph-bar[data-skill='55'] {
+  width: 55%;
+}
+/* line 151, ../scss/layouts/_skills.scss */
+.graph-bar[data-skill='60'] {
+  width: 60%;
+}
+/* line 154, ../scss/layouts/_skills.scss */
+.graph-bar[data-skill='65'] {
+  width: 65%;
+}
+/* line 157, ../scss/layouts/_skills.scss */
+.graph-bar[data-skill='70'] {
+  width: 70%;
+}
+/* line 160, ../scss/layouts/_skills.scss */
+.graph-bar[data-skill='75'] {
+  width: 75%;
+}
+/* line 163, ../scss/layouts/_skills.scss */
+.graph-bar[data-skill='80'] {
+  width: 80%;
+}
+/* line 166, ../scss/layouts/_skills.scss */
+.graph-bar[data-skill='85'] {
+  width: 85%;
+}
+/* line 169, ../scss/layouts/_skills.scss */
+.graph-bar[data-skill='90'] {
+  width: 90%;
+}
+/* line 172, ../scss/layouts/_skills.scss */
+.graph-bar[data-skill='95'] {
+  width: 95%;
+}
+
+/* line 177, ../scss/layouts/_skills.scss */
+.graph-label {
+  padding-left: 10px;
+  line-height: 30px;
+  color: white;
+}
+
+@keyframes anim-lightspeed-in {
+  /* line 186, ../scss/layouts/_skills.scss */
+  0% {
+    transform: translateX(-200%);
+    opacity: 1;
+  }
+
+  /* line 190, ../scss/layouts/_skills.scss */
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* line 21, ../scss/layouts/_portfolio.scss */
+.website-thumb {
+  margin-bottom: 2em;
+}
+
+/* line 25, ../scss/layouts/_portfolio.scss */
+.thumb-desc {
+  color: white;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 33, ../scss/layouts/_portfolio.scss */
+.cmp-link {
+  background: url("../img/palmTrees.jpg");
+  background-size: cover;
+  height: 280px;
+  width: 400px;
+  background-position: center;
+  display: inline-block;
+  float: none;
+  margin: 1em;
+}
+/* line 9, ../scss/layouts/_portfolio.scss */
+.cmp-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* line 38, ../scss/layouts/_portfolio.scss */
+.hiram-link {
+  background: url("../img/palmTrees.jpg");
+  background-size: cover;
+  height: 280px;
+  width: 400px;
+  background-position: center;
+  display: inline-block;
+  float: none;
+  margin: 1em;
+}
+/* line 9, ../scss/layouts/_portfolio.scss */
+.hiram-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* line 43, ../scss/layouts/_portfolio.scss */
+.schmidt-link {
+  background: url("../img/palmTrees.jpg");
+  background-size: cover;
+  height: 280px;
+  width: 400px;
+  background-position: center;
+  display: inline-block;
+  float: none;
+  margin: 1em;
+}
+/* line 9, ../scss/layouts/_portfolio.scss */
+.schmidt-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* line 48, ../scss/layouts/_portfolio.scss */
+.shaker-link {
+  background: url("../img/palmTrees.jpg");
+  background-size: cover;
+  height: 280px;
+  width: 400px;
+  background-position: center;
+  display: inline-block;
+  float: none;
+  margin: 1em;
+}
+/* line 9, ../scss/layouts/_portfolio.scss */
+.shaker-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* line 53, ../scss/layouts/_portfolio.scss */
+.cmp-details {
+  position: relative;
+  top: 40%;
+  display: block;
+}
+
+/* line 57, ../scss/layouts/_portfolio.scss */
+.hiram-details {
+  position: relative;
+  top: 40%;
+  display: block;
+}
+
+/* line 61, ../scss/layouts/_portfolio.scss */
+.schmidt-details {
+  position: relative;
+  top: 40%;
+  display: block;
+}
+
+/* line 65, ../scss/layouts/_portfolio.scss */
+.shaker-details {
+  position: relative;
+  top: 40%;
+  display: block;
+}
