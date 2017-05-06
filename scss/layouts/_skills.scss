@@ -126,11 +126,11 @@ body {
   animation: 1s anim-lightspeed-in ease forwards;
 
   .graph-block & {
-    @include animation-delay(9, .5s, 0.2s);    
+    @include animation-delay(10, .5s, 0.2s);    
   }
 
   .graph-design & {
-    @include animation-delay(2, 3.5s, 0.2s);
+    @include animation-delay(4, 3.5s, 0.2s);
   }
 
   &[data-skill='35'] {

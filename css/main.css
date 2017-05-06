@@ -285,6 +285,10 @@ body {
   animation: 1s anim-lightspeed-in ease forwards;
 }
 /* line 6, ../scss/layouts/_skills.scss */
+.graph-block .graph-bar:nth-of-type(10) {
+  animation-delay: 2.5s;
+}
+/* line 6, ../scss/layouts/_skills.scss */
 .graph-block .graph-bar:nth-of-type(9) {
   animation-delay: 2.3s;
 }
@@ -319,6 +323,14 @@ body {
 /* line 6, ../scss/layouts/_skills.scss */
 .graph-block .graph-bar:nth-of-type(1) {
   animation-delay: 0.7s;
+}
+/* line 6, ../scss/layouts/_skills.scss */
+.graph-design .graph-bar:nth-of-type(4) {
+  animation-delay: 4.3s;
+}
+/* line 6, ../scss/layouts/_skills.scss */
+.graph-design .graph-bar:nth-of-type(3) {
+  animation-delay: 4.1s;
 }
 /* line 6, ../scss/layouts/_skills.scss */
 .graph-design .graph-bar:nth-of-type(2) {
@@ -402,12 +414,12 @@ body {
   }
 }
 
-/* line 21, ../scss/layouts/_portfolio.scss */
+/* line 47, ../scss/layouts/_portfolio.scss */
 .website-thumb {
   margin-bottom: 2em;
 }
 
-/* line 25, ../scss/layouts/_portfolio.scss */
+/* line 51, ../scss/layouts/_portfolio.scss */
 .thumb-desc {
   color: white;
   margin-bottom: 0.5em;
@@ -416,96 +428,220 @@ body {
   justify-content: center;
 }
 
-/* line 33, ../scss/layouts/_portfolio.scss */
+/* line 59, ../scss/layouts/_portfolio.scss */
 .cmp-link {
   background: url("../img/palmTrees.jpg");
   background-size: cover;
-  height: 280px;
-  width: 400px;
+  height: 300px;
+  width: 420px;
   background-position: center;
   display: inline-block;
   float: none;
   margin: 1em;
+  /* Small Devices, Tablets */
+  /* Extra Small Devices, Phones */
+  /* Custom, iPhone Retina */
 }
 /* line 9, ../scss/layouts/_portfolio.scss */
 .cmp-link:hover {
   opacity: 0.8;
   cursor: pointer;
 }
+@media only screen and (max-width: 1199px) {
+  /* line 59, ../scss/layouts/_portfolio.scss */
+  .cmp-link {
+    height: 240px;
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 975px) {
+  /* line 59, ../scss/layouts/_portfolio.scss */
+  .cmp-link {
+    height: 220px;
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* line 59, ../scss/layouts/_portfolio.scss */
+  .cmp-link {
+    height: 320px;
+    width: 440px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 59, ../scss/layouts/_portfolio.scss */
+  .cmp-link {
+    height: 175px;
+    width: 295px;
+  }
+}
 
-/* line 38, ../scss/layouts/_portfolio.scss */
+/* line 64, ../scss/layouts/_portfolio.scss */
 .hiram-link {
   background: url("../img/palmTrees.jpg");
   background-size: cover;
-  height: 280px;
-  width: 400px;
+  height: 300px;
+  width: 420px;
   background-position: center;
   display: inline-block;
   float: none;
   margin: 1em;
+  /* Small Devices, Tablets */
+  /* Extra Small Devices, Phones */
+  /* Custom, iPhone Retina */
 }
 /* line 9, ../scss/layouts/_portfolio.scss */
 .hiram-link:hover {
   opacity: 0.8;
   cursor: pointer;
 }
+@media only screen and (max-width: 1199px) {
+  /* line 64, ../scss/layouts/_portfolio.scss */
+  .hiram-link {
+    height: 240px;
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 975px) {
+  /* line 64, ../scss/layouts/_portfolio.scss */
+  .hiram-link {
+    height: 220px;
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* line 64, ../scss/layouts/_portfolio.scss */
+  .hiram-link {
+    height: 320px;
+    width: 440px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 64, ../scss/layouts/_portfolio.scss */
+  .hiram-link {
+    height: 175px;
+    width: 295px;
+  }
+}
 
-/* line 43, ../scss/layouts/_portfolio.scss */
+/* line 69, ../scss/layouts/_portfolio.scss */
 .schmidt-link {
   background: url("../img/palmTrees.jpg");
   background-size: cover;
-  height: 280px;
-  width: 400px;
+  height: 300px;
+  width: 420px;
   background-position: center;
   display: inline-block;
   float: none;
   margin: 1em;
+  /* Small Devices, Tablets */
+  /* Extra Small Devices, Phones */
+  /* Custom, iPhone Retina */
 }
 /* line 9, ../scss/layouts/_portfolio.scss */
 .schmidt-link:hover {
   opacity: 0.8;
   cursor: pointer;
 }
+@media only screen and (max-width: 1199px) {
+  /* line 69, ../scss/layouts/_portfolio.scss */
+  .schmidt-link {
+    height: 240px;
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 975px) {
+  /* line 69, ../scss/layouts/_portfolio.scss */
+  .schmidt-link {
+    height: 220px;
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* line 69, ../scss/layouts/_portfolio.scss */
+  .schmidt-link {
+    height: 320px;
+    width: 440px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 69, ../scss/layouts/_portfolio.scss */
+  .schmidt-link {
+    height: 175px;
+    width: 295px;
+  }
+}
 
-/* line 48, ../scss/layouts/_portfolio.scss */
+/* line 74, ../scss/layouts/_portfolio.scss */
 .shaker-link {
   background: url("../img/palmTrees.jpg");
   background-size: cover;
-  height: 280px;
-  width: 400px;
+  height: 300px;
+  width: 420px;
   background-position: center;
   display: inline-block;
   float: none;
   margin: 1em;
+  /* Small Devices, Tablets */
+  /* Extra Small Devices, Phones */
+  /* Custom, iPhone Retina */
 }
 /* line 9, ../scss/layouts/_portfolio.scss */
 .shaker-link:hover {
   opacity: 0.8;
   cursor: pointer;
 }
+@media only screen and (max-width: 1199px) {
+  /* line 74, ../scss/layouts/_portfolio.scss */
+  .shaker-link {
+    height: 240px;
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 975px) {
+  /* line 74, ../scss/layouts/_portfolio.scss */
+  .shaker-link {
+    height: 220px;
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* line 74, ../scss/layouts/_portfolio.scss */
+  .shaker-link {
+    height: 320px;
+    width: 440px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 74, ../scss/layouts/_portfolio.scss */
+  .shaker-link {
+    height: 175px;
+    width: 295px;
+  }
+}
 
-/* line 53, ../scss/layouts/_portfolio.scss */
+/* line 79, ../scss/layouts/_portfolio.scss */
 .cmp-details {
   position: relative;
   top: 40%;
   display: block;
 }
 
-/* line 57, ../scss/layouts/_portfolio.scss */
+/* line 83, ../scss/layouts/_portfolio.scss */
 .hiram-details {
   position: relative;
   top: 40%;
   display: block;
 }
 
-/* line 61, ../scss/layouts/_portfolio.scss */
+/* line 87, ../scss/layouts/_portfolio.scss */
 .schmidt-details {
   position: relative;
   top: 40%;
   display: block;
 }
 
-/* line 65, ../scss/layouts/_portfolio.scss */
+/* line 91, ../scss/layouts/_portfolio.scss */
 .shaker-details {
   position: relative;
   top: 40%;
