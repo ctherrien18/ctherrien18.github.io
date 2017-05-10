@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Above; 
+    src: url("../fonts/aboveFont.ttf");
+} 
+
 @mixin thumbnail-style {
     background-size: cover;
     height: 300px;
@@ -7,7 +12,7 @@
     float: none;
     margin: 1em;
     &:hover {
-        opacity: 0.8;
+        opacity: 0.6;
         cursor: pointer;
     }
     @media (min-width: 768px) and (max-width: 1199px) {
@@ -49,30 +54,35 @@
 }
 
 .thumb-desc {
+    font-family: Above;
     color: white; 
     margin-bottom: 0.5em;
+    font-size: 1.6em;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    @media only screen and (max-width : 500px) {
+        font-size: 1.3em;
+    }
 }
 
 .cmp-link {
-    background: url("../img/palmTrees.jpg"); 
+    background: url("../img/cmp.png"); 
     @include thumbnail-style;
 }
 
 .hiram-link {
-    background: url("../img/palmTrees.jpg"); 
+    background: url("../img/hiram.png"); 
     @include thumbnail-style;
 }
 
 .schmidt-link {
-    background: url("../img/palmTrees.jpg"); 
+    background: url("../img/schmidt.png"); 
     @include thumbnail-style;
 }
 
 .shaker-link {
-    background: url("../img/palmTrees.jpg"); 
+    background: url("../img/shaker.png"); 
     @include thumbnail-style;
 }
 
@@ -90,5 +100,11 @@
 
 .shaker-details {
     @include thumbnail-details;
+}
+
+// Modal Styles
+
+.modal-title {
+    font-family: Above;
 }
 

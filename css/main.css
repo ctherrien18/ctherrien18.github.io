@@ -414,119 +414,36 @@ body {
   }
 }
 
-/* line 47, ../scss/layouts/_portfolio.scss */
+@font-face {
+  font-family: Above;
+  src: url("../fonts/aboveFont.ttf");
+}
+
+/* line 52, ../scss/layouts/_portfolio.scss */
 .website-thumb {
   margin-bottom: 2em;
 }
 
-/* line 51, ../scss/layouts/_portfolio.scss */
+/* line 56, ../scss/layouts/_portfolio.scss */
 .thumb-desc {
+  font-family: Above;
   color: white;
   margin-bottom: 0.5em;
+  font-size: 1.6em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-/* line 59, ../scss/layouts/_portfolio.scss */
-.cmp-link {
-  background: url("../img/palmTrees.jpg");
-  background-size: cover;
-  height: 300px;
-  width: 420px;
-  background-position: center;
-  display: inline-block;
-  float: none;
-  margin: 1em;
-  /* Small Devices, Tablets */
-  /* Extra Small Devices, Phones */
-  /* Custom, iPhone Retina */
-}
-/* line 9, ../scss/layouts/_portfolio.scss */
-.cmp-link:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-@media only screen and (max-width: 1199px) {
-  /* line 59, ../scss/layouts/_portfolio.scss */
-  .cmp-link {
-    height: 240px;
-    width: 360px;
-  }
-}
-@media only screen and (max-width: 975px) {
-  /* line 59, ../scss/layouts/_portfolio.scss */
-  .cmp-link {
-    height: 220px;
-    width: 340px;
-  }
-}
-@media only screen and (max-width: 800px) {
-  /* line 59, ../scss/layouts/_portfolio.scss */
-  .cmp-link {
-    height: 320px;
-    width: 440px;
-  }
-}
 @media only screen and (max-width: 500px) {
-  /* line 59, ../scss/layouts/_portfolio.scss */
-  .cmp-link {
-    height: 175px;
-    width: 295px;
-  }
-}
-
-/* line 64, ../scss/layouts/_portfolio.scss */
-.hiram-link {
-  background: url("../img/palmTrees.jpg");
-  background-size: cover;
-  height: 300px;
-  width: 420px;
-  background-position: center;
-  display: inline-block;
-  float: none;
-  margin: 1em;
-  /* Small Devices, Tablets */
-  /* Extra Small Devices, Phones */
-  /* Custom, iPhone Retina */
-}
-/* line 9, ../scss/layouts/_portfolio.scss */
-.hiram-link:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-@media only screen and (max-width: 1199px) {
-  /* line 64, ../scss/layouts/_portfolio.scss */
-  .hiram-link {
-    height: 240px;
-    width: 360px;
-  }
-}
-@media only screen and (max-width: 975px) {
-  /* line 64, ../scss/layouts/_portfolio.scss */
-  .hiram-link {
-    height: 220px;
-    width: 340px;
-  }
-}
-@media only screen and (max-width: 800px) {
-  /* line 64, ../scss/layouts/_portfolio.scss */
-  .hiram-link {
-    height: 320px;
-    width: 440px;
-  }
-}
-@media only screen and (max-width: 500px) {
-  /* line 64, ../scss/layouts/_portfolio.scss */
-  .hiram-link {
-    height: 175px;
-    width: 295px;
+  /* line 56, ../scss/layouts/_portfolio.scss */
+  .thumb-desc {
+    font-size: 1.3em;
   }
 }
 
 /* line 69, ../scss/layouts/_portfolio.scss */
-.schmidt-link {
-  background: url("../img/palmTrees.jpg");
+.cmp-link {
+  background: url("../img/cmp.png");
   background-size: cover;
   height: 300px;
   width: 420px;
@@ -538,43 +455,43 @@ body {
   /* Extra Small Devices, Phones */
   /* Custom, iPhone Retina */
 }
-/* line 9, ../scss/layouts/_portfolio.scss */
-.schmidt-link:hover {
-  opacity: 0.8;
+/* line 14, ../scss/layouts/_portfolio.scss */
+.cmp-link:hover {
+  opacity: 0.6;
   cursor: pointer;
 }
 @media only screen and (max-width: 1199px) {
   /* line 69, ../scss/layouts/_portfolio.scss */
-  .schmidt-link {
+  .cmp-link {
     height: 240px;
     width: 360px;
   }
 }
 @media only screen and (max-width: 975px) {
   /* line 69, ../scss/layouts/_portfolio.scss */
-  .schmidt-link {
+  .cmp-link {
     height: 220px;
     width: 340px;
   }
 }
 @media only screen and (max-width: 800px) {
   /* line 69, ../scss/layouts/_portfolio.scss */
-  .schmidt-link {
+  .cmp-link {
     height: 320px;
     width: 440px;
   }
 }
 @media only screen and (max-width: 500px) {
   /* line 69, ../scss/layouts/_portfolio.scss */
-  .schmidt-link {
+  .cmp-link {
     height: 175px;
     width: 295px;
   }
 }
 
 /* line 74, ../scss/layouts/_portfolio.scss */
-.shaker-link {
-  background: url("../img/palmTrees.jpg");
+.hiram-link {
+  background: url("../img/hiram.png");
   background-size: cover;
   height: 300px;
   width: 420px;
@@ -586,64 +503,165 @@ body {
   /* Extra Small Devices, Phones */
   /* Custom, iPhone Retina */
 }
-/* line 9, ../scss/layouts/_portfolio.scss */
-.shaker-link:hover {
-  opacity: 0.8;
+/* line 14, ../scss/layouts/_portfolio.scss */
+.hiram-link:hover {
+  opacity: 0.6;
   cursor: pointer;
 }
 @media only screen and (max-width: 1199px) {
   /* line 74, ../scss/layouts/_portfolio.scss */
-  .shaker-link {
+  .hiram-link {
     height: 240px;
     width: 360px;
   }
 }
 @media only screen and (max-width: 975px) {
   /* line 74, ../scss/layouts/_portfolio.scss */
-  .shaker-link {
+  .hiram-link {
     height: 220px;
     width: 340px;
   }
 }
 @media only screen and (max-width: 800px) {
   /* line 74, ../scss/layouts/_portfolio.scss */
-  .shaker-link {
+  .hiram-link {
     height: 320px;
     width: 440px;
   }
 }
 @media only screen and (max-width: 500px) {
   /* line 74, ../scss/layouts/_portfolio.scss */
-  .shaker-link {
+  .hiram-link {
     height: 175px;
     width: 295px;
   }
 }
 
 /* line 79, ../scss/layouts/_portfolio.scss */
+.schmidt-link {
+  background: url("../img/schmidt.png");
+  background-size: cover;
+  height: 300px;
+  width: 420px;
+  background-position: center;
+  display: inline-block;
+  float: none;
+  margin: 1em;
+  /* Small Devices, Tablets */
+  /* Extra Small Devices, Phones */
+  /* Custom, iPhone Retina */
+}
+/* line 14, ../scss/layouts/_portfolio.scss */
+.schmidt-link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1199px) {
+  /* line 79, ../scss/layouts/_portfolio.scss */
+  .schmidt-link {
+    height: 240px;
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 975px) {
+  /* line 79, ../scss/layouts/_portfolio.scss */
+  .schmidt-link {
+    height: 220px;
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* line 79, ../scss/layouts/_portfolio.scss */
+  .schmidt-link {
+    height: 320px;
+    width: 440px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 79, ../scss/layouts/_portfolio.scss */
+  .schmidt-link {
+    height: 175px;
+    width: 295px;
+  }
+}
+
+/* line 84, ../scss/layouts/_portfolio.scss */
+.shaker-link {
+  background: url("../img/shaker.png");
+  background-size: cover;
+  height: 300px;
+  width: 420px;
+  background-position: center;
+  display: inline-block;
+  float: none;
+  margin: 1em;
+  /* Small Devices, Tablets */
+  /* Extra Small Devices, Phones */
+  /* Custom, iPhone Retina */
+}
+/* line 14, ../scss/layouts/_portfolio.scss */
+.shaker-link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1199px) {
+  /* line 84, ../scss/layouts/_portfolio.scss */
+  .shaker-link {
+    height: 240px;
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 975px) {
+  /* line 84, ../scss/layouts/_portfolio.scss */
+  .shaker-link {
+    height: 220px;
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* line 84, ../scss/layouts/_portfolio.scss */
+  .shaker-link {
+    height: 320px;
+    width: 440px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 84, ../scss/layouts/_portfolio.scss */
+  .shaker-link {
+    height: 175px;
+    width: 295px;
+  }
+}
+
+/* line 89, ../scss/layouts/_portfolio.scss */
 .cmp-details {
   position: relative;
   top: 40%;
   display: block;
 }
 
-/* line 83, ../scss/layouts/_portfolio.scss */
+/* line 93, ../scss/layouts/_portfolio.scss */
 .hiram-details {
   position: relative;
   top: 40%;
   display: block;
 }
 
-/* line 87, ../scss/layouts/_portfolio.scss */
+/* line 97, ../scss/layouts/_portfolio.scss */
 .schmidt-details {
   position: relative;
   top: 40%;
   display: block;
 }
 
-/* line 91, ../scss/layouts/_portfolio.scss */
+/* line 101, ../scss/layouts/_portfolio.scss */
 .shaker-details {
   position: relative;
   top: 40%;
   display: block;
+}
+
+/* line 107, ../scss/layouts/_portfolio.scss */
+.modal-title {
+  font-family: Above;
 }
