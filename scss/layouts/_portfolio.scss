@@ -108,3 +108,138 @@
     font-family: Above;
 }
 
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+.carousel-indicators li {
+  background-color: #b3ffff;
+}
+
+.carousel-indicators .active {
+  background-color: #00cccc;
+}
+
+.caption-desc {
+    color: #cccccc;
+}
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 450px;
+    overflow-y: auto;
+}
+
+.project-container {
+    overflow: hidden;
+    margin: 40px auto 0;
+    clear: both;
+}
+
+.project-desc {
+    float: left;
+    width: 62%;
+}
+
+.project-desc-text {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 300;
+    color: #999;
+}
+
+.project-details {
+    float: right;
+    width: 38%;
+    padding-left: 60px;
+    margin-bottom: 15px;
+}
+
+.project-details-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    & > li {
+        font-weight: 400;
+        border-bottom: 1px dotted #DFDFDF;
+        padding: inherit;
+        color: #666;
+        strong {
+            display: inline-block;
+            color: #696969;
+            font-weight: 500;
+            min-width: 100px;
+        }
+    }
+}
+
+.project-link {
+    font-weight: 500;
+    background-color: #80ffff;
+    color: #FFFFFF;
+    float: right;
+    clear: both;
+    text-decoration: none;
+    margin-top: 25px;
+    padding: 5px 16px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    &:hover {
+        text-decoration: none;
+        color: teal;
+    }
+}
+
+.img-anim-controls {
+    text-align: center;
+    span {
+        padding-right: 2em;
+        cursor: pointer;
+        &:hover {
+            color: teal;
+        }
+    }
+}
+
+.img-anim {
+    position: relative;
+    width: 319px;
+    height: 284px;
+    margin: 0 auto 10px;
+    img {
+      position:absolute;
+      left:0;
+      -webkit-transition: opacity 1.3s ease-in-out;
+      -moz-transition: opacity 1.3s ease-in-out;
+      -o-transition: opacity 1.3s ease-in-out;
+      transition: opacity 1.3s ease-in-out;
+      opacity:0;
+      -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      filter: alpha(opacity=0);
+      &.img-anim-opaque {
+        opacity:1;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        filter: alpha(opacity=1);
+      }
+    }
+}
+
+.anim-container {
+    position: absolute;
+    left: 3em;
+    top: 1em;
+}
+
+.sch-img-container {
+    position: absolute;
+    width: 400px;
+    height: 284px;
+    right: 3em;
+}
+
+
+

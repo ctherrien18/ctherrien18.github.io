@@ -12,6 +12,15 @@
 });*/
 
 
-function myFunction() {
-    alert("I am an alert box!");
-}
+$(document).ready(function() {
+  $(".img-anim-controls").on('click', 'span', function() {
+    $(".img-anim img").removeClass("img-anim-opaque");
+
+    var newImage = $(this).index();
+
+    $(".img-anim img").eq(newImage).addClass("img-anim-opaque");
+
+    $(".img-anim-controls").removeClass(".img-anim-selected");
+    $(this).addClass(".img-anim-selected");
+  });
+});

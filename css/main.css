@@ -185,41 +185,41 @@ body {
   position: relative;
 }
 
-/* line 30, ../scss/layouts/_skills.scss */
+/* line 29, ../scss/layouts/_skills.scss */
 .lines {
   height: 100%;
   position: relative;
   list-style-type: none;
   padding: 0;
 }
-/* line 36, ../scss/layouts/_skills.scss */
+/* line 35, ../scss/layouts/_skills.scss */
 .lines .line {
   height: inherit;
   width: 2px;
   position: absolute;
   background: rgba(220, 255, 255, 0.6);
 }
-/* line 44, ../scss/layouts/_skills.scss */
+/* line 43, ../scss/layouts/_skills.scss */
 .lines .line.skill-level {
   left: 0;
 }
-/* line 47, ../scss/layouts/_skills.scss */
+/* line 46, ../scss/layouts/_skills.scss */
 .lines .line.basic-level {
   left: 25%;
 }
-/* line 50, ../scss/layouts/_skills.scss */
+/* line 49, ../scss/layouts/_skills.scss */
 .lines .line.average-level {
   left: 50%;
 }
-/* line 53, ../scss/layouts/_skills.scss */
+/* line 52, ../scss/layouts/_skills.scss */
 .lines .line.advanced-level {
   left: 75%;
 }
-/* line 56, ../scss/layouts/_skills.scss */
+/* line 55, ../scss/layouts/_skills.scss */
 .lines .line.expert-level {
   left: calc(100% - 1px);
 }
-/* line 60, ../scss/layouts/_skills.scss */
+/* line 59, ../scss/layouts/_skills.scss */
 .lines .line .skill-label {
   display: block;
   width: 100px;
@@ -228,13 +228,13 @@ body {
   bottom: -20px;
   right: -50px;
 }
-/* line 69, ../scss/layouts/_skills.scss */
+/* line 68, ../scss/layouts/_skills.scss */
 .lines .line .skill-label.skills-title {
   text-transform: uppercase;
   font-weight: bold;
 }
 
-/* line 77, ../scss/layouts/_skills.scss */
+/* line 76, ../scss/layouts/_skills.scss */
 .graphs {
   width: 100%;
   height: 100%;
@@ -244,16 +244,16 @@ body {
   z-index: 10;
 }
 
-/* line 86, ../scss/layouts/_skills.scss */
+/* line 85, ../scss/layouts/_skills.scss */
 .graph {
   margin: 30px 0 0;
 }
-/* line 89, ../scss/layouts/_skills.scss */
+/* line 88, ../scss/layouts/_skills.scss */
 .graph:first-child {
   margin: 0;
 }
 
-/* line 94, ../scss/layouts/_skills.scss */
+/* line 93, ../scss/layouts/_skills.scss */
 .graph-title {
   display: block;
   margin: 0 0 10px;
@@ -262,19 +262,19 @@ body {
   opacity: 0;
   animation: 1s anim-lightspeed-in ease forwards;
 }
-/* line 105, ../scss/layouts/_skills.scss */
+/* line 104, ../scss/layouts/_skills.scss */
 .graph-design .graph-title {
   animation-delay: 3s;
 }
 
-/* line 110, ../scss/layouts/_skills.scss */
+/* line 109, ../scss/layouts/_skills.scss */
 .graph-x {
   overflow: hidden;
   list-style-type: none;
   padding: 0;
 }
 
-/* line 116, ../scss/layouts/_skills.scss */
+/* line 115, ../scss/layouts/_skills.scss */
 .graph-bar {
   height: 30px;
   margin-bottom: 10px;
@@ -340,60 +340,60 @@ body {
 .graph-design .graph-bar:nth-of-type(1) {
   animation-delay: 3.7s;
 }
-/* line 136, ../scss/layouts/_skills.scss */
+/* line 135, ../scss/layouts/_skills.scss */
 .graph-bar[data-skill='35'] {
   width: 35%;
 }
-/* line 139, ../scss/layouts/_skills.scss */
+/* line 138, ../scss/layouts/_skills.scss */
 .graph-bar[data-skill='40'] {
   width: 40%;
 }
-/* line 142, ../scss/layouts/_skills.scss */
+/* line 141, ../scss/layouts/_skills.scss */
 .graph-bar[data-skill='45'] {
   width: 45%;
 }
-/* line 145, ../scss/layouts/_skills.scss */
+/* line 144, ../scss/layouts/_skills.scss */
 .graph-bar[data-skill='50'] {
   width: 50%;
 }
-/* line 148, ../scss/layouts/_skills.scss */
+/* line 147, ../scss/layouts/_skills.scss */
 .graph-bar[data-skill='55'] {
   width: 55%;
 }
-/* line 151, ../scss/layouts/_skills.scss */
+/* line 150, ../scss/layouts/_skills.scss */
 .graph-bar[data-skill='60'] {
   width: 60%;
 }
-/* line 154, ../scss/layouts/_skills.scss */
+/* line 153, ../scss/layouts/_skills.scss */
 .graph-bar[data-skill='65'] {
   width: 65%;
 }
-/* line 157, ../scss/layouts/_skills.scss */
+/* line 156, ../scss/layouts/_skills.scss */
 .graph-bar[data-skill='70'] {
   width: 70%;
 }
-/* line 160, ../scss/layouts/_skills.scss */
+/* line 159, ../scss/layouts/_skills.scss */
 .graph-bar[data-skill='75'] {
   width: 75%;
 }
-/* line 163, ../scss/layouts/_skills.scss */
+/* line 162, ../scss/layouts/_skills.scss */
 .graph-bar[data-skill='80'] {
   width: 80%;
 }
-/* line 166, ../scss/layouts/_skills.scss */
+/* line 165, ../scss/layouts/_skills.scss */
 .graph-bar[data-skill='85'] {
   width: 85%;
 }
-/* line 169, ../scss/layouts/_skills.scss */
+/* line 168, ../scss/layouts/_skills.scss */
 .graph-bar[data-skill='90'] {
   width: 90%;
 }
-/* line 172, ../scss/layouts/_skills.scss */
+/* line 171, ../scss/layouts/_skills.scss */
 .graph-bar[data-skill='95'] {
   width: 95%;
 }
 
-/* line 177, ../scss/layouts/_skills.scss */
+/* line 176, ../scss/layouts/_skills.scss */
 .graph-label {
   padding-left: 10px;
   line-height: 30px;
@@ -401,13 +401,13 @@ body {
 }
 
 @keyframes anim-lightspeed-in {
-  /* line 186, ../scss/layouts/_skills.scss */
+  /* line 185, ../scss/layouts/_skills.scss */
   0% {
     transform: translateX(-200%);
     opacity: 1;
   }
 
-  /* line 190, ../scss/layouts/_skills.scss */
+  /* line 189, ../scss/layouts/_skills.scss */
   100% {
     transform: translateX(0);
     opacity: 1;
@@ -664,4 +664,161 @@ body {
 /* line 107, ../scss/layouts/_portfolio.scss */
 .modal-title {
   font-family: Above;
+}
+
+/* line 111, ../scss/layouts/_portfolio.scss */
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
+/* line 117, ../scss/layouts/_portfolio.scss */
+.carousel-indicators li {
+  background-color: #b3ffff;
+}
+
+/* line 121, ../scss/layouts/_portfolio.scss */
+.carousel-indicators .active {
+  background-color: #00cccc;
+}
+
+/* line 125, ../scss/layouts/_portfolio.scss */
+.caption-desc {
+  color: #cccccc;
+}
+
+/* line 129, ../scss/layouts/_portfolio.scss */
+.modal-dialog {
+  overflow-y: initial !important;
+}
+
+/* line 132, ../scss/layouts/_portfolio.scss */
+.modal-body {
+  height: 450px;
+  overflow-y: auto;
+}
+
+/* line 137, ../scss/layouts/_portfolio.scss */
+.project-container {
+  overflow: hidden;
+  margin: 40px auto 0;
+  clear: both;
+}
+
+/* line 143, ../scss/layouts/_portfolio.scss */
+.project-desc {
+  float: left;
+  width: 62%;
+}
+
+/* line 148, ../scss/layouts/_portfolio.scss */
+.project-desc-text {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 300;
+  color: #999;
+}
+
+/* line 155, ../scss/layouts/_portfolio.scss */
+.project-details {
+  float: right;
+  width: 38%;
+  padding-left: 60px;
+  margin-bottom: 15px;
+}
+
+/* line 162, ../scss/layouts/_portfolio.scss */
+.project-details-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 166, ../scss/layouts/_portfolio.scss */
+.project-details-list > li {
+  font-weight: 400;
+  border-bottom: 1px dotted #DFDFDF;
+  padding: inherit;
+  color: #666;
+}
+/* line 171, ../scss/layouts/_portfolio.scss */
+.project-details-list > li strong {
+  display: inline-block;
+  color: #696969;
+  font-weight: 500;
+  min-width: 100px;
+}
+
+/* line 180, ../scss/layouts/_portfolio.scss */
+.project-link {
+  font-weight: 500;
+  background-color: #80ffff;
+  color: #FFFFFF;
+  float: right;
+  clear: both;
+  text-decoration: none;
+  margin-top: 25px;
+  padding: 5px 16px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+/* line 191, ../scss/layouts/_portfolio.scss */
+.project-link:hover {
+  text-decoration: none;
+  color: teal;
+}
+
+/* line 197, ../scss/layouts/_portfolio.scss */
+.img-anim-controls {
+  text-align: center;
+}
+/* line 199, ../scss/layouts/_portfolio.scss */
+.img-anim-controls span {
+  padding-right: 2em;
+  cursor: pointer;
+}
+/* line 202, ../scss/layouts/_portfolio.scss */
+.img-anim-controls span:hover {
+  color: teal;
+}
+
+/* line 208, ../scss/layouts/_portfolio.scss */
+.img-anim {
+  position: relative;
+  width: 319px;
+  height: 284px;
+  margin: 0 auto 10px;
+}
+/* line 213, ../scss/layouts/_portfolio.scss */
+.img-anim img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1.3s ease-in-out;
+  -moz-transition: opacity 1.3s ease-in-out;
+  -o-transition: opacity 1.3s ease-in-out;
+  transition: opacity 1.3s ease-in-out;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+/* line 223, ../scss/layouts/_portfolio.scss */
+.img-anim img.img-anim-opaque {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=1);
+}
+
+/* line 231, ../scss/layouts/_portfolio.scss */
+.anim-container {
+  position: absolute;
+  left: 3em;
+  top: 1em;
+}
+
+/* line 237, ../scss/layouts/_portfolio.scss */
+.sch-img-container {
+  position: absolute;
+  width: 400px;
+  height: 284px;
+  right: 3em;
 }
