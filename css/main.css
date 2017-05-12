@@ -820,6 +820,11 @@ body {
   margin-top: 1em;
 }
 
+/* line 237, ../scss/layouts/_portfolio.scss */
+.css-anim-title {
+  text-align: center;
+}
+
 /* line 1, ../scss/layouts/_work.scss */
 .page-header {
   color: white;
