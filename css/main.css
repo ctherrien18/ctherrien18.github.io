@@ -129,11 +129,11 @@ body {
 /* line 34, ../scss/layouts/_header.scss */
 .logo {
   display: block;
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   position: absolute;
-  top: 5px;
-  left: 2em;
+  top: 7px;
+  left: 1.8em;
 }
 
 /* line 1, ../scss/layouts/_footer.scss */
@@ -153,17 +153,22 @@ body {
   font-size: 18px;
 }
 
-/* line 7, ../scss/layouts/_about.scss */
-.icon {
-  margin: 0 auto 30px;
+/* line 8, ../scss/layouts/_about.scss */
+h3 {
   color: white;
 }
-/* line 10, ../scss/layouts/_about.scss */
+
+/* line 12, ../scss/layouts/_about.scss */
+.icon {
+  margin: 0 auto 30px;
+  color: #80dfff;
+}
+/* line 15, ../scss/layouts/_about.scss */
 .icon:hover {
   transition: all .3s ease-out;
 }
 
-/* line 16, ../scss/layouts/_about.scss */
+/* line 21, ../scss/layouts/_about.scss */
 .services.item {
   text-align: center;
   margin-bottom: 30px;
@@ -715,7 +720,7 @@ body {
 /* line 148, ../scss/layouts/_portfolio.scss */
 .project-desc-text {
   font-size: 1.2rem;
-  line-height: 1.8rem;
+  line-height: 2rem;
   font-weight: 300;
   color: #999;
 }
@@ -737,11 +742,12 @@ body {
 /* line 166, ../scss/layouts/_portfolio.scss */
 .project-details-list > li {
   font-weight: 400;
+  font-size: 12px;
   border-bottom: 1px dotted #DFDFDF;
   padding: inherit;
   color: #666;
 }
-/* line 171, ../scss/layouts/_portfolio.scss */
+/* line 172, ../scss/layouts/_portfolio.scss */
 .project-details-list > li strong {
   display: inline-block;
   color: #696969;
@@ -749,7 +755,7 @@ body {
   min-width: 100px;
 }
 
-/* line 180, ../scss/layouts/_portfolio.scss */
+/* line 181, ../scss/layouts/_portfolio.scss */
 .project-link {
   font-weight: 500;
   background-color: #80ffff;
@@ -762,34 +768,34 @@ body {
   text-transform: uppercase;
   letter-spacing: .5px;
 }
-/* line 191, ../scss/layouts/_portfolio.scss */
+/* line 192, ../scss/layouts/_portfolio.scss */
 .project-link:hover {
   text-decoration: none;
   color: teal;
 }
 
-/* line 197, ../scss/layouts/_portfolio.scss */
+/* line 198, ../scss/layouts/_portfolio.scss */
 .img-anim-controls {
   text-align: center;
 }
-/* line 199, ../scss/layouts/_portfolio.scss */
+/* line 200, ../scss/layouts/_portfolio.scss */
 .img-anim-controls span {
   padding-right: 2em;
   cursor: pointer;
 }
-/* line 202, ../scss/layouts/_portfolio.scss */
+/* line 203, ../scss/layouts/_portfolio.scss */
 .img-anim-controls span:hover {
   color: teal;
 }
 
-/* line 208, ../scss/layouts/_portfolio.scss */
+/* line 209, ../scss/layouts/_portfolio.scss */
 .img-anim {
   position: relative;
-  width: 319px;
-  height: 284px;
+  width: 260px;
+  height: 230px;
   margin: 0 auto 10px;
 }
-/* line 213, ../scss/layouts/_portfolio.scss */
+/* line 214, ../scss/layouts/_portfolio.scss */
 .img-anim img {
   position: absolute;
   left: 0;
@@ -801,24 +807,241 @@ body {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
 }
-/* line 223, ../scss/layouts/_portfolio.scss */
+/* line 224, ../scss/layouts/_portfolio.scss */
 .img-anim img.img-anim-opaque {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=1);
 }
 
-/* line 231, ../scss/layouts/_portfolio.scss */
+/* line 232, ../scss/layouts/_portfolio.scss */
 .anim-container {
-  position: absolute;
-  left: 3em;
-  top: 1em;
+  position: relative;
+  margin-top: 1em;
 }
 
-/* line 237, ../scss/layouts/_portfolio.scss */
-.sch-img-container {
+/* line 1, ../scss/layouts/_work.scss */
+.page-header {
+  color: white;
+  text-align: left;
+  margin-top: -1em;
+}
+
+/* line 7, ../scss/layouts/_work.scss */
+.text-muted {
+  color: #b3b3b3;
+}
+
+/* line 11, ../scss/layouts/_work.scss */
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+
+/* line 17, ../scss/layouts/_work.scss */
+.timeline:before {
+  top: 0;
+  bottom: 0;
   position: absolute;
-  width: 400px;
-  height: 284px;
-  right: 3em;
+  content: " ";
+  width: 3px;
+  background-color: #eeeeee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+
+/* line 28, ../scss/layouts/_work.scss */
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* line 34, ../scss/layouts/_work.scss */
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+/* line 39, ../scss/layouts/_work.scss */
+.timeline > li:after {
+  clear: both;
+}
+
+/* line 44, ../scss/layouts/_work.scss */
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+/* line 49, ../scss/layouts/_work.scss */
+.timeline > li:after {
+  clear: both;
+}
+
+/* line 53, ../scss/layouts/_work.scss */
+.timeline > li > .timeline-panel {
+  width: 46%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+/* line 64, ../scss/layouts/_work.scss */
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+
+/* line 76, ../scss/layouts/_work.scss */
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+
+/* line 88, ../scss/layouts/_work.scss */
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #999999;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+/* line 107, ../scss/layouts/_work.scss */
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+
+/* line 111, ../scss/layouts/_work.scss */
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
+/* line 118, ../scss/layouts/_work.scss */
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+/* line 126, ../scss/layouts/_work.scss */
+.timeline-badge i {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+}
+
+/* line 133, ../scss/layouts/_work.scss */
+.timeline-badge.q2-color {
+  background-color: #00cc00 !important;
+}
+
+/* line 137, ../scss/layouts/_work.scss */
+.timeline-badge.thunder-color {
+  background-color: #FF661B !important;
+}
+
+/* line 141, ../scss/layouts/_work.scss */
+.timeline-badge.westfield-color {
+  background-color: #3188c3 !important;
+}
+
+/* line 147, ../scss/layouts/_work.scss */
+.timeline-title {
+  margin-top: 0;
+  color: white;
+}
+
+/* line 153, ../scss/layouts/_work.scss */
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+/* line 158, ../scss/layouts/_work.scss */
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+  /* line 163, ../scss/layouts/_work.scss */
+  ul.timeline:before {
+    left: 40px;
+  }
+
+  /* line 167, ../scss/layouts/_work.scss */
+  ul.timeline > li > .timeline-panel {
+    width: calc(100% - 90px);
+    width: -moz-calc(100% - 90px);
+    width: -webkit-calc(100% - 90px);
+  }
+
+  /* line 173, ../scss/layouts/_work.scss */
+  ul.timeline > li > .timeline-badge {
+    left: 15px;
+    margin-left: 0;
+    top: 16px;
+  }
+
+  /* line 179, ../scss/layouts/_work.scss */
+  ul.timeline > li > .timeline-panel {
+    float: right;
+  }
+
+  /* line 183, ../scss/layouts/_work.scss */
+  ul.timeline > li > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+  }
+
+  /* line 190, ../scss/layouts/_work.scss */
+  ul.timeline > li > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+  }
+}
+/* line 198, ../scss/layouts/_work.scss */
+.job-position-desc {
+  color: aliceblue;
 }

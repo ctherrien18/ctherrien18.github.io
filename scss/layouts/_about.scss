@@ -4,9 +4,14 @@
     font-size: 18px;
 }
 
+
+h3 {
+    color: white;
+}
+
 .icon {
     margin: 0 auto 30px;
-    color: white;
+    color: #80dfff;
     &:hover {
         transition: all .3s ease-out;
     }
