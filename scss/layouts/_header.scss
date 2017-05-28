@@ -11,6 +11,9 @@
     animation: 
       typing 2.5s steps(25,end),
       blink-caret .75s step-end infinite;
+    @media only screen and (max-width : 800px) {
+        font-size: 18px;
+    }
 }  
 
 @keyframes typing {
