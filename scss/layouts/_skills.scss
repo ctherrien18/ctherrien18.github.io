@@ -174,7 +174,6 @@ body {
 }
 
 .graph-label {
-  padding-left: 10px;
   line-height: 30px;
   color: white;
 }
@@ -190,4 +189,25 @@ body {
     transform: translateX(0);
     opacity: 1; 
   }
+}
+
+@media only screen and (max-width : 430px) {
+    .skills-title {
+        font-size: 8px;
+    }
+    .basic-level {
+        font-size: 8px;
+    }
+    .average-level {
+        font-size: 8px;
+    }
+    .advanced-level {
+        font-size: 8px;
+    }
+    .expert-level {
+        font-size: 8px;
+    }
+    .graph-label {
+        font-size: 11px;
+    }
 }

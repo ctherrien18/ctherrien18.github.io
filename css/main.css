@@ -424,25 +424,55 @@ body {
 
 /* line 176, ../scss/layouts/_skills.scss */
 .graph-label {
-  padding-left: 10px;
   line-height: 30px;
   color: white;
 }
 
 @keyframes anim-lightspeed-in {
-  /* line 185, ../scss/layouts/_skills.scss */
+  /* line 184, ../scss/layouts/_skills.scss */
   0% {
     transform: translateX(-200%);
     opacity: 1;
   }
 
-  /* line 189, ../scss/layouts/_skills.scss */
+  /* line 188, ../scss/layouts/_skills.scss */
   100% {
     transform: translateX(0);
     opacity: 1;
   }
 }
 
+@media only screen and (max-width: 430px) {
+  /* line 195, ../scss/layouts/_skills.scss */
+  .skills-title {
+    font-size: 8px;
+  }
+
+  /* line 198, ../scss/layouts/_skills.scss */
+  .basic-level {
+    font-size: 8px;
+  }
+
+  /* line 201, ../scss/layouts/_skills.scss */
+  .average-level {
+    font-size: 8px;
+  }
+
+  /* line 204, ../scss/layouts/_skills.scss */
+  .advanced-level {
+    font-size: 8px;
+  }
+
+  /* line 207, ../scss/layouts/_skills.scss */
+  .expert-level {
+    font-size: 8px;
+  }
+
+  /* line 210, ../scss/layouts/_skills.scss */
+  .graph-label {
+    font-size: 11px;
+  }
+}
 @font-face {
   font-family: Above;
   src: url("../fonts/aboveFont.ttf");
