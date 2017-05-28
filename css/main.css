@@ -1,37 +1,37 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 /* MODULES - Individual site components */
-/* line 1, ../scss/modules/_typography.scss */
+/* line 1, C:/ctherrien18.github.io/scss/modules/_typography.scss */
 i {
   padding-left: 1em;
   padding-right: 1em;
   margin-top: 1em;
 }
 
-/* line 1, ../scss/modules/_sections.scss */
+/* line 1, C:/ctherrien18.github.io/scss/modules/_sections.scss */
 body {
   font-family: Montserrat, sans-serif;
   line-height: 1.8;
 }
 
-/* line 6, ../scss/modules/_sections.scss */
+/* line 6, C:/ctherrien18.github.io/scss/modules/_sections.scss */
 .container-fluid {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 11, ../scss/modules/_sections.scss */
+/* line 11, C:/ctherrien18.github.io/scss/modules/_sections.scss */
 .margin-section-title {
   margin-bottom: 30px;
   font-size: 26px;
   color: #f5f6f7;
 }
 
-/* line 17, ../scss/modules/_sections.scss */
+/* line 17, C:/ctherrien18.github.io/scss/modules/_sections.scss */
 .padding-top-bottom {
   padding: 3em 0;
 }
 
-/* line 21, ../scss/modules/_sections.scss */
+/* line 21, C:/ctherrien18.github.io/scss/modules/_sections.scss */
 #intro {
   background: url("../img/palmTrees.jpg");
   background-size: cover;
@@ -44,28 +44,28 @@ body {
   left: 0;
 }
 
-/* line 33, ../scss/modules/_sections.scss */
+/* line 33, C:/ctherrien18.github.io/scss/modules/_sections.scss */
 #about {
   background-color: #999999;
 }
 
-/* line 37, ../scss/modules/_sections.scss */
+/* line 37, C:/ctherrien18.github.io/scss/modules/_sections.scss */
 #skills {
   background-color: #88c1dd;
 }
 
-/* line 41, ../scss/modules/_sections.scss */
+/* line 41, C:/ctherrien18.github.io/scss/modules/_sections.scss */
 #portfolio {
   background-color: #4db3b3;
 }
 
-/* line 45, ../scss/modules/_sections.scss */
+/* line 45, C:/ctherrien18.github.io/scss/modules/_sections.scss */
 #work {
   background-color: cadetblue;
 }
 
 /* LAYOUTS - Page layout styles */
-/* line 1, ../scss/layouts/_nav.scss */
+/* line 1, C:/ctherrien18.github.io/scss/layouts/_nav.scss */
 .navbar {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -76,12 +76,17 @@ body {
   letter-spacing: 5px;
 }
 
-/* line 11, ../scss/layouts/_nav.scss */
+/* line 11, C:/ctherrien18.github.io/scss/layouts/_nav.scss */
 .navbar-nav li a:hover {
   color: #1abc9c !important;
 }
 
-/* line 3, ../scss/layouts/_header.scss */
+/* line 1, C:/ctherrien18.github.io/scss/layouts/_header.scss */
+#body-wrapper {
+  overflow-x: hidden;
+}
+
+/* line 5, C:/ctherrien18.github.io/scss/layouts/_header.scss */
 .typed-title {
   overflow: hidden;
   border-right: .1em solid white;
@@ -92,30 +97,30 @@ body {
 }
 
 @keyframes typing {
-  /* line 15, ../scss/layouts/_header.scss */
+  /* line 17, C:/ctherrien18.github.io/scss/layouts/_header.scss */
   from {
     width: 0;
   }
 
-  /* line 16, ../scss/layouts/_header.scss */
+  /* line 18, C:/ctherrien18.github.io/scss/layouts/_header.scss */
   to {
     width: 350px;
   }
 }
 
 @keyframes blink-caret {
-  /* line 20, ../scss/layouts/_header.scss */
+  /* line 22, C:/ctherrien18.github.io/scss/layouts/_header.scss */
   from, to {
     border-color: transparent;
   }
 
-  /* line 21, ../scss/layouts/_header.scss */
+  /* line 23, C:/ctherrien18.github.io/scss/layouts/_header.scss */
   50% {
     border-color: white;
   }
 }
 
-/* line 24, ../scss/layouts/_header.scss */
+/* line 26, C:/ctherrien18.github.io/scss/layouts/_header.scss */
 .typewriter {
   color: white;
   margin-top: 3em;
@@ -126,7 +131,7 @@ body {
   justify-content: center;
 }
 
-/* line 34, ../scss/layouts/_header.scss */
+/* line 36, C:/ctherrien18.github.io/scss/layouts/_header.scss */
 .logo {
   display: block;
   width: 65px;
@@ -136,52 +141,52 @@ body {
   left: 1.8em;
 }
 
-/* line 1, ../scss/layouts/_footer.scss */
+/* line 1, C:/ctherrien18.github.io/scss/layouts/_footer.scss */
 .footer {
   background-color: #262626;
 }
 
-/* line 5, ../scss/layouts/_footer.scss */
+/* line 5, C:/ctherrien18.github.io/scss/layouts/_footer.scss */
 .copyright {
   color: white;
 }
 
-/* line 1, ../scss/layouts/_about.scss */
+/* line 1, C:/ctherrien18.github.io/scss/layouts/_about.scss */
 .about-title {
   color: #0d233b;
   font-weight: bold;
   font-size: 18px;
 }
 
-/* line 8, ../scss/layouts/_about.scss */
+/* line 8, C:/ctherrien18.github.io/scss/layouts/_about.scss */
 h3 {
   color: white;
 }
 
-/* line 12, ../scss/layouts/_about.scss */
+/* line 12, C:/ctherrien18.github.io/scss/layouts/_about.scss */
 .icon {
   margin: 0 auto 30px;
   color: #80dfff;
 }
-/* line 15, ../scss/layouts/_about.scss */
+/* line 15, C:/ctherrien18.github.io/scss/layouts/_about.scss */
 .icon:hover {
   transition: all .3s ease-out;
 }
 
-/* line 21, ../scss/layouts/_about.scss */
+/* line 21, C:/ctherrien18.github.io/scss/layouts/_about.scss */
 .services.item {
   text-align: center;
   margin-bottom: 30px;
 }
 
-/* line 13, ../scss/layouts/_skills.scss */
+/* line 13, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 body {
   margin-top: 40px;
   font-family: 'Open Sans', sans-serif;
   color: #282828;
 }
 
-/* line 21, ../scss/layouts/_skills.scss */
+/* line 21, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .comp-skills {
   width: 80%;
   max-width: 960px;
@@ -190,41 +195,41 @@ body {
   position: relative;
 }
 
-/* line 29, ../scss/layouts/_skills.scss */
+/* line 29, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .lines {
   height: 100%;
   position: relative;
   list-style-type: none;
   padding: 0;
 }
-/* line 35, ../scss/layouts/_skills.scss */
+/* line 35, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .lines .line {
   height: inherit;
   width: 2px;
   position: absolute;
   background: rgba(220, 255, 255, 0.6);
 }
-/* line 43, ../scss/layouts/_skills.scss */
+/* line 43, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .lines .line.skill-level {
   left: 0;
 }
-/* line 46, ../scss/layouts/_skills.scss */
+/* line 46, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .lines .line.basic-level {
   left: 25%;
 }
-/* line 49, ../scss/layouts/_skills.scss */
+/* line 49, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .lines .line.average-level {
   left: 50%;
 }
-/* line 52, ../scss/layouts/_skills.scss */
+/* line 52, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .lines .line.advanced-level {
   left: 75%;
 }
-/* line 55, ../scss/layouts/_skills.scss */
+/* line 55, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .lines .line.expert-level {
   left: calc(100% - 1px);
 }
-/* line 59, ../scss/layouts/_skills.scss */
+/* line 59, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .lines .line .skill-label {
   display: block;
   width: 100px;
@@ -233,13 +238,13 @@ body {
   bottom: -20px;
   right: -50px;
 }
-/* line 68, ../scss/layouts/_skills.scss */
+/* line 68, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .lines .line .skill-label.skills-title {
   text-transform: uppercase;
   font-weight: bold;
 }
 
-/* line 76, ../scss/layouts/_skills.scss */
+/* line 76, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graphs {
   width: 100%;
   height: 100%;
@@ -249,16 +254,16 @@ body {
   z-index: 10;
 }
 
-/* line 85, ../scss/layouts/_skills.scss */
+/* line 85, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph {
   margin: 30px 0 0;
 }
-/* line 88, ../scss/layouts/_skills.scss */
+/* line 88, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph:first-child {
   margin: 0;
 }
 
-/* line 93, ../scss/layouts/_skills.scss */
+/* line 93, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-title {
   display: block;
   margin: 0 0 10px;
@@ -267,19 +272,19 @@ body {
   opacity: 0;
   animation: 1s anim-lightspeed-in ease forwards;
 }
-/* line 104, ../scss/layouts/_skills.scss */
+/* line 104, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-design .graph-title {
   animation-delay: 3s;
 }
 
-/* line 109, ../scss/layouts/_skills.scss */
+/* line 109, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-x {
   overflow: hidden;
   list-style-type: none;
   padding: 0;
 }
 
-/* line 115, ../scss/layouts/_skills.scss */
+/* line 115, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar {
   height: 30px;
   margin-bottom: 10px;
@@ -289,116 +294,116 @@ body {
   opacity: 0;
   animation: 1s anim-lightspeed-in ease forwards;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-block .graph-bar:nth-of-type(10) {
   animation-delay: 2.5s;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-block .graph-bar:nth-of-type(9) {
   animation-delay: 2.3s;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-block .graph-bar:nth-of-type(8) {
   animation-delay: 2.1s;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-block .graph-bar:nth-of-type(7) {
   animation-delay: 1.9s;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-block .graph-bar:nth-of-type(6) {
   animation-delay: 1.7s;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-block .graph-bar:nth-of-type(5) {
   animation-delay: 1.5s;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-block .graph-bar:nth-of-type(4) {
   animation-delay: 1.3s;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-block .graph-bar:nth-of-type(3) {
   animation-delay: 1.1s;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-block .graph-bar:nth-of-type(2) {
   animation-delay: 0.9s;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-block .graph-bar:nth-of-type(1) {
   animation-delay: 0.7s;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-design .graph-bar:nth-of-type(4) {
   animation-delay: 4.3s;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-design .graph-bar:nth-of-type(3) {
   animation-delay: 4.1s;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-design .graph-bar:nth-of-type(2) {
   animation-delay: 3.9s;
 }
-/* line 6, ../scss/layouts/_skills.scss */
+/* line 6, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-design .graph-bar:nth-of-type(1) {
   animation-delay: 3.7s;
 }
-/* line 135, ../scss/layouts/_skills.scss */
+/* line 135, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar[data-skill='35'] {
   width: 35%;
 }
-/* line 138, ../scss/layouts/_skills.scss */
+/* line 138, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar[data-skill='40'] {
   width: 40%;
 }
-/* line 141, ../scss/layouts/_skills.scss */
+/* line 141, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar[data-skill='45'] {
   width: 45%;
 }
-/* line 144, ../scss/layouts/_skills.scss */
+/* line 144, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar[data-skill='50'] {
   width: 50%;
 }
-/* line 147, ../scss/layouts/_skills.scss */
+/* line 147, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar[data-skill='55'] {
   width: 55%;
 }
-/* line 150, ../scss/layouts/_skills.scss */
+/* line 150, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar[data-skill='60'] {
   width: 60%;
 }
-/* line 153, ../scss/layouts/_skills.scss */
+/* line 153, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar[data-skill='65'] {
   width: 65%;
 }
-/* line 156, ../scss/layouts/_skills.scss */
+/* line 156, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar[data-skill='70'] {
   width: 70%;
 }
-/* line 159, ../scss/layouts/_skills.scss */
+/* line 159, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar[data-skill='75'] {
   width: 75%;
 }
-/* line 162, ../scss/layouts/_skills.scss */
+/* line 162, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar[data-skill='80'] {
   width: 80%;
 }
-/* line 165, ../scss/layouts/_skills.scss */
+/* line 165, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar[data-skill='85'] {
   width: 85%;
 }
-/* line 168, ../scss/layouts/_skills.scss */
+/* line 168, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar[data-skill='90'] {
   width: 90%;
 }
-/* line 171, ../scss/layouts/_skills.scss */
+/* line 171, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-bar[data-skill='95'] {
   width: 95%;
 }
 
-/* line 176, ../scss/layouts/_skills.scss */
+/* line 176, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
 .graph-label {
   padding-left: 10px;
   line-height: 30px;
@@ -406,13 +411,13 @@ body {
 }
 
 @keyframes anim-lightspeed-in {
-  /* line 185, ../scss/layouts/_skills.scss */
+  /* line 185, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
   0% {
     transform: translateX(-200%);
     opacity: 1;
   }
 
-  /* line 189, ../scss/layouts/_skills.scss */
+  /* line 189, C:/ctherrien18.github.io/scss/layouts/_skills.scss */
   100% {
     transform: translateX(0);
     opacity: 1;
@@ -424,12 +429,12 @@ body {
   src: url("../fonts/aboveFont.ttf");
 }
 
-/* line 52, ../scss/layouts/_portfolio.scss */
+/* line 52, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .website-thumb {
   margin-bottom: 2em;
 }
 
-/* line 56, ../scss/layouts/_portfolio.scss */
+/* line 56, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .thumb-desc {
   font-family: Above;
   color: white;
@@ -440,13 +445,13 @@ body {
   justify-content: center;
 }
 @media only screen and (max-width: 500px) {
-  /* line 56, ../scss/layouts/_portfolio.scss */
+  /* line 56, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .thumb-desc {
     font-size: 1.3em;
   }
 }
 
-/* line 69, ../scss/layouts/_portfolio.scss */
+/* line 69, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .cmp-link {
   background: url("../img/cmp.png");
   background-size: cover;
@@ -460,41 +465,41 @@ body {
   /* Extra Small Devices, Phones */
   /* Custom, iPhone Retina */
 }
-/* line 14, ../scss/layouts/_portfolio.scss */
+/* line 14, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .cmp-link:hover {
   opacity: 0.6;
   cursor: pointer;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 69, ../scss/layouts/_portfolio.scss */
+  /* line 69, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .cmp-link {
     height: 240px;
     width: 360px;
   }
 }
 @media only screen and (max-width: 975px) {
-  /* line 69, ../scss/layouts/_portfolio.scss */
+  /* line 69, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .cmp-link {
     height: 220px;
     width: 340px;
   }
 }
 @media only screen and (max-width: 800px) {
-  /* line 69, ../scss/layouts/_portfolio.scss */
+  /* line 69, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .cmp-link {
     height: 320px;
     width: 440px;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 69, ../scss/layouts/_portfolio.scss */
+  /* line 69, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .cmp-link {
     height: 175px;
     width: 295px;
   }
 }
 
-/* line 74, ../scss/layouts/_portfolio.scss */
+/* line 74, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .hiram-link {
   background: url("../img/hiram.png");
   background-size: cover;
@@ -508,41 +513,41 @@ body {
   /* Extra Small Devices, Phones */
   /* Custom, iPhone Retina */
 }
-/* line 14, ../scss/layouts/_portfolio.scss */
+/* line 14, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .hiram-link:hover {
   opacity: 0.6;
   cursor: pointer;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 74, ../scss/layouts/_portfolio.scss */
+  /* line 74, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .hiram-link {
     height: 240px;
     width: 360px;
   }
 }
 @media only screen and (max-width: 975px) {
-  /* line 74, ../scss/layouts/_portfolio.scss */
+  /* line 74, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .hiram-link {
     height: 220px;
     width: 340px;
   }
 }
 @media only screen and (max-width: 800px) {
-  /* line 74, ../scss/layouts/_portfolio.scss */
+  /* line 74, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .hiram-link {
     height: 320px;
     width: 440px;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 74, ../scss/layouts/_portfolio.scss */
+  /* line 74, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .hiram-link {
     height: 175px;
     width: 295px;
   }
 }
 
-/* line 79, ../scss/layouts/_portfolio.scss */
+/* line 79, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .schmidt-link {
   background: url("../img/schmidt.png");
   background-size: cover;
@@ -556,41 +561,41 @@ body {
   /* Extra Small Devices, Phones */
   /* Custom, iPhone Retina */
 }
-/* line 14, ../scss/layouts/_portfolio.scss */
+/* line 14, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .schmidt-link:hover {
   opacity: 0.6;
   cursor: pointer;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 79, ../scss/layouts/_portfolio.scss */
+  /* line 79, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .schmidt-link {
     height: 240px;
     width: 360px;
   }
 }
 @media only screen and (max-width: 975px) {
-  /* line 79, ../scss/layouts/_portfolio.scss */
+  /* line 79, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .schmidt-link {
     height: 220px;
     width: 340px;
   }
 }
 @media only screen and (max-width: 800px) {
-  /* line 79, ../scss/layouts/_portfolio.scss */
+  /* line 79, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .schmidt-link {
     height: 320px;
     width: 440px;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 79, ../scss/layouts/_portfolio.scss */
+  /* line 79, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .schmidt-link {
     height: 175px;
     width: 295px;
   }
 }
 
-/* line 84, ../scss/layouts/_portfolio.scss */
+/* line 84, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .shaker-link {
   background: url("../img/shaker.png");
   background-size: cover;
@@ -604,120 +609,120 @@ body {
   /* Extra Small Devices, Phones */
   /* Custom, iPhone Retina */
 }
-/* line 14, ../scss/layouts/_portfolio.scss */
+/* line 14, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .shaker-link:hover {
   opacity: 0.6;
   cursor: pointer;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 84, ../scss/layouts/_portfolio.scss */
+  /* line 84, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .shaker-link {
     height: 240px;
     width: 360px;
   }
 }
 @media only screen and (max-width: 975px) {
-  /* line 84, ../scss/layouts/_portfolio.scss */
+  /* line 84, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .shaker-link {
     height: 220px;
     width: 340px;
   }
 }
 @media only screen and (max-width: 800px) {
-  /* line 84, ../scss/layouts/_portfolio.scss */
+  /* line 84, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .shaker-link {
     height: 320px;
     width: 440px;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 84, ../scss/layouts/_portfolio.scss */
+  /* line 84, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
   .shaker-link {
     height: 175px;
     width: 295px;
   }
 }
 
-/* line 89, ../scss/layouts/_portfolio.scss */
+/* line 89, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .cmp-details {
   position: relative;
   top: 40%;
   display: block;
 }
 
-/* line 93, ../scss/layouts/_portfolio.scss */
+/* line 93, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .hiram-details {
   position: relative;
   top: 40%;
   display: block;
 }
 
-/* line 97, ../scss/layouts/_portfolio.scss */
+/* line 97, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .schmidt-details {
   position: relative;
   top: 40%;
   display: block;
 }
 
-/* line 101, ../scss/layouts/_portfolio.scss */
+/* line 101, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .shaker-details {
   position: relative;
   top: 40%;
   display: block;
 }
 
-/* line 107, ../scss/layouts/_portfolio.scss */
+/* line 107, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .modal-title {
   font-family: Above;
 }
 
-/* line 111, ../scss/layouts/_portfolio.scss */
+/* line 111, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .carousel-caption {
   position: relative;
   left: auto;
   right: auto;
 }
 
-/* line 117, ../scss/layouts/_portfolio.scss */
+/* line 117, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .carousel-indicators li {
   background-color: #b3ffff;
 }
 
-/* line 121, ../scss/layouts/_portfolio.scss */
+/* line 121, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .carousel-indicators .active {
   background-color: #00cccc;
 }
 
-/* line 125, ../scss/layouts/_portfolio.scss */
+/* line 125, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .caption-desc {
   color: #cccccc;
 }
 
-/* line 129, ../scss/layouts/_portfolio.scss */
+/* line 129, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .modal-dialog {
   overflow-y: initial !important;
 }
 
-/* line 132, ../scss/layouts/_portfolio.scss */
+/* line 132, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .modal-body {
   height: 450px;
   overflow-y: auto;
 }
 
-/* line 137, ../scss/layouts/_portfolio.scss */
+/* line 137, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .project-container {
   overflow: hidden;
   margin: 40px auto 0;
   clear: both;
 }
 
-/* line 143, ../scss/layouts/_portfolio.scss */
+/* line 143, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .project-desc {
   float: left;
   width: 62%;
 }
 
-/* line 148, ../scss/layouts/_portfolio.scss */
+/* line 148, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .project-desc-text {
   font-size: 1.2rem;
   line-height: 2rem;
@@ -725,7 +730,7 @@ body {
   color: #999;
 }
 
-/* line 155, ../scss/layouts/_portfolio.scss */
+/* line 155, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .project-details {
   float: right;
   width: 38%;
@@ -733,13 +738,13 @@ body {
   margin-bottom: 15px;
 }
 
-/* line 162, ../scss/layouts/_portfolio.scss */
+/* line 162, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .project-details-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 166, ../scss/layouts/_portfolio.scss */
+/* line 166, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .project-details-list > li {
   font-weight: 400;
   font-size: 12px;
@@ -747,7 +752,7 @@ body {
   padding: inherit;
   color: #666;
 }
-/* line 172, ../scss/layouts/_portfolio.scss */
+/* line 172, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .project-details-list > li strong {
   display: inline-block;
   color: #696969;
@@ -755,7 +760,7 @@ body {
   min-width: 100px;
 }
 
-/* line 181, ../scss/layouts/_portfolio.scss */
+/* line 181, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .project-link {
   font-weight: 500;
   background-color: #80ffff;
@@ -768,34 +773,34 @@ body {
   text-transform: uppercase;
   letter-spacing: .5px;
 }
-/* line 192, ../scss/layouts/_portfolio.scss */
+/* line 192, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .project-link:hover {
   text-decoration: none;
   color: teal;
 }
 
-/* line 198, ../scss/layouts/_portfolio.scss */
+/* line 198, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .img-anim-controls {
   text-align: center;
 }
-/* line 200, ../scss/layouts/_portfolio.scss */
+/* line 200, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .img-anim-controls span {
   padding-right: 2em;
   cursor: pointer;
 }
-/* line 203, ../scss/layouts/_portfolio.scss */
+/* line 203, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .img-anim-controls span:hover {
   color: teal;
 }
 
-/* line 209, ../scss/layouts/_portfolio.scss */
+/* line 209, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .img-anim {
   position: relative;
   width: 260px;
   height: 230px;
   margin: 0 auto 10px;
 }
-/* line 214, ../scss/layouts/_portfolio.scss */
+/* line 214, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .img-anim img {
   position: absolute;
   left: 0;
@@ -807,44 +812,44 @@ body {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
 }
-/* line 224, ../scss/layouts/_portfolio.scss */
+/* line 224, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .img-anim img.img-anim-opaque {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=1);
 }
 
-/* line 232, ../scss/layouts/_portfolio.scss */
+/* line 232, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .anim-container {
   position: relative;
   margin-top: 1em;
 }
 
-/* line 237, ../scss/layouts/_portfolio.scss */
+/* line 237, C:/ctherrien18.github.io/scss/layouts/_portfolio.scss */
 .css-anim-title {
   text-align: center;
 }
 
-/* line 1, ../scss/layouts/_work.scss */
+/* line 1, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .page-header {
   color: white;
   text-align: left;
   margin-top: -1em;
 }
 
-/* line 7, ../scss/layouts/_work.scss */
+/* line 7, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .text-muted {
   color: #b3b3b3;
 }
 
-/* line 11, ../scss/layouts/_work.scss */
+/* line 11, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline {
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
 }
 
-/* line 17, ../scss/layouts/_work.scss */
+/* line 17, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline:before {
   top: 0;
   bottom: 0;
@@ -856,37 +861,37 @@ body {
   margin-left: -1.5px;
 }
 
-/* line 28, ../scss/layouts/_work.scss */
+/* line 28, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline > li {
   margin-bottom: 20px;
   position: relative;
 }
 
-/* line 34, ../scss/layouts/_work.scss */
+/* line 34, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline > li:before,
 .timeline > li:after {
   content: " ";
   display: table;
 }
 
-/* line 39, ../scss/layouts/_work.scss */
+/* line 39, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline > li:after {
   clear: both;
 }
 
-/* line 44, ../scss/layouts/_work.scss */
+/* line 44, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline > li:before,
 .timeline > li:after {
   content: " ";
   display: table;
 }
 
-/* line 49, ../scss/layouts/_work.scss */
+/* line 49, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline > li:after {
   clear: both;
 }
 
-/* line 53, ../scss/layouts/_work.scss */
+/* line 53, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline > li > .timeline-panel {
   width: 46%;
   float: left;
@@ -898,7 +903,7 @@ body {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 
-/* line 64, ../scss/layouts/_work.scss */
+/* line 64, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline > li > .timeline-panel:before {
   position: absolute;
   top: 26px;
@@ -911,7 +916,7 @@ body {
   content: " ";
 }
 
-/* line 76, ../scss/layouts/_work.scss */
+/* line 76, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline > li > .timeline-panel:after {
   position: absolute;
   top: 27px;
@@ -924,7 +929,7 @@ body {
   content: " ";
 }
 
-/* line 88, ../scss/layouts/_work.scss */
+/* line 88, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline > li > .timeline-badge {
   color: #fff;
   width: 50px;
@@ -944,12 +949,12 @@ body {
   border-bottom-left-radius: 50%;
 }
 
-/* line 107, ../scss/layouts/_work.scss */
+/* line 107, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
 }
 
-/* line 111, ../scss/layouts/_work.scss */
+/* line 111, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline > li.timeline-inverted > .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
@@ -957,7 +962,7 @@ body {
   right: auto;
 }
 
-/* line 118, ../scss/layouts/_work.scss */
+/* line 118, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline > li.timeline-inverted > .timeline-panel:after {
   border-left-width: 0;
   border-right-width: 14px;
@@ -965,72 +970,72 @@ body {
   right: auto;
 }
 
-/* line 126, ../scss/layouts/_work.scss */
+/* line 126, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline-badge i {
   padding-left: 0;
   padding-right: 0;
   margin-top: 0;
 }
 
-/* line 133, ../scss/layouts/_work.scss */
+/* line 133, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline-badge.q2-color {
   background-color: #00cc00 !important;
 }
 
-/* line 137, ../scss/layouts/_work.scss */
+/* line 137, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline-badge.thunder-color {
   background-color: #FF661B !important;
 }
 
-/* line 141, ../scss/layouts/_work.scss */
+/* line 141, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline-badge.westfield-color {
   background-color: #3188c3 !important;
 }
 
-/* line 147, ../scss/layouts/_work.scss */
+/* line 147, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline-title {
   margin-top: 0;
   color: white;
 }
 
-/* line 153, ../scss/layouts/_work.scss */
+/* line 153, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
   text-align: left;
 }
 
-/* line 158, ../scss/layouts/_work.scss */
+/* line 158, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .timeline-body > p + p {
   margin-top: 5px;
 }
 
 @media (max-width: 767px) {
-  /* line 163, ../scss/layouts/_work.scss */
+  /* line 163, C:/ctherrien18.github.io/scss/layouts/_work.scss */
   ul.timeline:before {
     left: 40px;
   }
 
-  /* line 167, ../scss/layouts/_work.scss */
+  /* line 167, C:/ctherrien18.github.io/scss/layouts/_work.scss */
   ul.timeline > li > .timeline-panel {
     width: calc(100% - 90px);
     width: -moz-calc(100% - 90px);
     width: -webkit-calc(100% - 90px);
   }
 
-  /* line 173, ../scss/layouts/_work.scss */
+  /* line 173, C:/ctherrien18.github.io/scss/layouts/_work.scss */
   ul.timeline > li > .timeline-badge {
     left: 15px;
     margin-left: 0;
     top: 16px;
   }
 
-  /* line 179, ../scss/layouts/_work.scss */
+  /* line 179, C:/ctherrien18.github.io/scss/layouts/_work.scss */
   ul.timeline > li > .timeline-panel {
     float: right;
   }
 
-  /* line 183, ../scss/layouts/_work.scss */
+  /* line 183, C:/ctherrien18.github.io/scss/layouts/_work.scss */
   ul.timeline > li > .timeline-panel:before {
     border-left-width: 0;
     border-right-width: 15px;
@@ -1038,7 +1043,7 @@ body {
     right: auto;
   }
 
-  /* line 190, ../scss/layouts/_work.scss */
+  /* line 190, C:/ctherrien18.github.io/scss/layouts/_work.scss */
   ul.timeline > li > .timeline-panel:after {
     border-left-width: 0;
     border-right-width: 14px;
@@ -1046,7 +1051,7 @@ body {
     right: auto;
   }
 }
-/* line 198, ../scss/layouts/_work.scss */
+/* line 198, C:/ctherrien18.github.io/scss/layouts/_work.scss */
 .job-position-desc {
   color: aliceblue;
 }
