@@ -98,7 +98,7 @@ body {
 @media only screen and (max-width: 800px) {
   /* line 5, ../scss/layouts/_header.scss */
   .typed-title {
-    font-size: 18px;
+    font-size: 24px;
   }
 }
 
@@ -112,21 +112,33 @@ body {
   to {
     width: 350px;
   }
+
+  @media only screen and (max-width: 800px) {
+    /* line 23, ../scss/layouts/_header.scss */
+    from {
+      width: 0;
+    }
+
+    /* line 24, ../scss/layouts/_header.scss */
+    to {
+      width: 320px;
+    }
+}
 }
 
 @keyframes blink-caret {
-  /* line 25, ../scss/layouts/_header.scss */
+  /* line 29, ../scss/layouts/_header.scss */
   from, to {
     border-color: transparent;
   }
 
-  /* line 26, ../scss/layouts/_header.scss */
+  /* line 30, ../scss/layouts/_header.scss */
   50% {
     border-color: white;
   }
 }
 
-/* line 29, ../scss/layouts/_header.scss */
+/* line 33, ../scss/layouts/_header.scss */
 .typewriter {
   color: white;
   margin-top: 3em;
@@ -137,7 +149,7 @@ body {
   justify-content: center;
 }
 
-/* line 39, ../scss/layouts/_header.scss */
+/* line 43, ../scss/layouts/_header.scss */
 .logo {
   display: block;
   width: 65px;
