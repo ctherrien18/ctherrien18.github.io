@@ -98,47 +98,48 @@ body {
 @media only screen and (max-width: 800px) {
   /* line 5, ../scss/layouts/_header.scss */
   .typed-title {
-    font-size: 24px;
+    font-size: 25px;
+    animation: mobile-typing 2.5s steps(25, end), blink-caret 0.75s step-end infinite;
   }
 }
 
 @keyframes typing {
-  /* line 20, ../scss/layouts/_header.scss */
+  /* line 23, ../scss/layouts/_header.scss */
   from {
     width: 0;
   }
 
-  /* line 21, ../scss/layouts/_header.scss */
+  /* line 24, ../scss/layouts/_header.scss */
   to {
     width: 350px;
   }
-
-  @media only screen and (max-width: 800px) {
-    /* line 23, ../scss/layouts/_header.scss */
-    from {
-      width: 0;
-    }
-
-    /* line 24, ../scss/layouts/_header.scss */
-    to {
-      width: 320px;
-    }
 }
+
+@keyframes mobile-typing {
+  /* line 28, ../scss/layouts/_header.scss */
+  from {
+    width: 0;
+  }
+
+  /* line 29, ../scss/layouts/_header.scss */
+  to {
+    width: 300px;
+  }
 }
 
 @keyframes blink-caret {
-  /* line 29, ../scss/layouts/_header.scss */
+  /* line 33, ../scss/layouts/_header.scss */
   from, to {
     border-color: transparent;
   }
 
-  /* line 30, ../scss/layouts/_header.scss */
+  /* line 34, ../scss/layouts/_header.scss */
   50% {
     border-color: white;
   }
 }
 
-/* line 33, ../scss/layouts/_header.scss */
+/* line 37, ../scss/layouts/_header.scss */
 .typewriter {
   color: white;
   margin-top: 3em;
@@ -149,7 +150,7 @@ body {
   justify-content: center;
 }
 
-/* line 43, ../scss/layouts/_header.scss */
+/* line 47, ../scss/layouts/_header.scss */
 .logo {
   display: block;
   width: 65px;
