@@ -12,9 +12,9 @@
       typing 2.5s steps(25,end),
       blink-caret .75s step-end infinite;
     @media only screen and (max-width : 800px) {
-        font-size: 25px;
+        font-size: 22px;
         animation: 
-            mobile-typing 2.5s steps(20,end),
+            mobile-typing 2.5s steps(25,end),
             blink-caret .75s step-end infinite;
     }
 }  
@@ -26,7 +26,7 @@
 
 @keyframes mobile-typing {
     from {width: 0}
-    to {width: 200px}
+    to {width: 250px}
 }
       
 @keyframes blink-caret {
