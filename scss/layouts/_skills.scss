@@ -21,7 +21,7 @@ body {
 .comp-skills {
   width: 80%;
   max-width: 960px;
-  height: 720px;
+  height: 800px;
   margin: auto;
   position: relative;
 }
@@ -125,7 +125,7 @@ body {
   animation: 1s anim-lightspeed-in ease forwards;
 
   .graph-block & {
-    @include animation-delay(10, .5s, 0.2s);    
+    @include animation-delay(13, .5s, 0.2s);    
   }
 
   .graph-design & {
